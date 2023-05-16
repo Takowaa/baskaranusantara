@@ -1,0 +1,361 @@
+@media (max-width: 1200px) {
+    /* BASE CONFIQ */
+    .container {
+        max-width: 1150px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    /* BASE CONFIQ */
+    /* HERO */
+    .text__info {
+        height: 500px;
+    }
+
+    .text__info-title {
+        width: 600px;
+        font-size: 55px;
+        margin-bottom: 18px;
+    }
+
+    .text__info-subtitle {
+        font-size: 16px;
+        width: 600px;
+        line-height: 1.3;
+        margin-bottom: 28px;
+    }
+    /* HERO */
+    /* MACHINE */
+    .machine_img img {
+        height: 340px;
+    }
+    /* MACHINE */
+    /* GLORY */
+    .glory__content {
+        width: 524px;
+    }
+    .glory__text-title {
+        font-size: 21px;
+        margin-bottom: 12px;
+    }
+    .glory__text-subtitle {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    /* GLORY */
+}
+
+@media (max-width: 1024px) {
+    /* BASE CONFIQ */
+    .container {
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    /* BASE CONFIQ */
+    /* HEADER */
+
+    .header__btn {
+        width: 145.39px;
+        height: 34px;
+        font-size: 13px;
+    }
+    /* HEADER */
+    /* HERO */
+
+    .text__info-title {
+        font-size: 50px;
+        line-height: 1;
+    }
+    /* HERO */
+    /* MACHINE */
+
+    .machine_img img {
+        height: 260px;
+    }
+    /* MACHINE */
+    /* GLORY */
+
+    .glory__content {
+        width: 448px;
+    }
+    .glory__text-title {
+        font-size: 19px;
+    }
+    .glory__text-subtitle {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /* GLORY */
+}
+@media (max-width: 880px) {
+    /* HEADER */
+    .header {
+        padding: 0 10px;
+    }
+
+    .header__link:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .header__link {
+        font-size: 14px;
+    }
+
+    .header__btn {
+        width: 131.39px;
+        height: 28px;
+        font-size: 11px;
+    }
+    /* HEADER */
+    /* GLORY */
+    .glory__content {
+        width: 426px;
+    }    
+    /* GLORY */
+}
+@media (max-width: 778px) {
+    /* HEADER */
+    .header {
+        padding: 0;
+    }
+
+    .header__logo {
+        font-size: 14px;
+    }
+
+    .header__link {
+        font-size: 14px;
+    }
+    .header__link:not(:last-child) {
+        margin-right: 18px;
+    }
+
+    .header__btn {
+        font-size: 11px;
+        width: 122.39px;
+        height: 31px;
+        margin-right: 35px;
+    }
+
+    .header__icon {
+        font-size: 21px;
+        margin-right: 18px;
+    }
+
+    .header__icon:not(:last-child) {
+        margin-right: 15px;
+    }
+    /* HEADER */
+    /* HERO */
+    .text__info {
+        height: 448px;
+    }
+
+    .text__info-title {
+        font-size: 42px;
+    }
+
+    .text__info-subtitle {
+        font-size: 13px;
+        width: 500px;
+    }
+    /* HERO */
+    /* TEAM */
+    .team__content-title {
+        width: 620px;
+        font-size: 15px;
+        line-height: 33px;
+    }
+    /* TEAM */
+    /* MACHINE */
+    .machine_img img {
+        height: 200px;
+    }
+    /* MACHINE */
+    /* GLORY */
+    .glory__content {
+        width: 367px;
+    }
+    /* GLORY */
+}
+
+@media (max-width: 600px) {
+    /* HEADER */
+    .header__btn {
+        font-size: 9px;
+        width: 92.39px;
+        height: 25px;
+        margin-right: 15px;
+    }
+    
+    .header__logo {
+        font-size: 10px;
+    }
+    
+    .header__link:not(:last-child) {
+        margin-right: 7px;
+    }
+    
+    .header__link {
+        font-size: 12px;
+    }
+    /* HEADER */
+    /* HERO */
+    .text__info-title {
+        width: 326px;
+        font-size: 30px;
+        margin-bottom: 12px;
+    }
+
+    .text__info-subtitle {
+        font-size: 11px;
+        width: 413px;
+    }
+    /* HERO */
+    /* TEAM */
+    .team__content-title {
+        width: 410px;
+        font-size: 13px;
+        line-height: 30px;
+    }
+    /* TEAM */
+    /* MACHINE */
+    .machine {
+        padding: 60px 0 30px;
+    }
+
+    .machine_img img {
+        height: 148px;
+    }
+    /* MACHINE */
+    /* GLORY */
+    .glory__content {
+        width: 275px;
+    }
+
+    .glory__text-title {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    .glory__text-subtitle {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    /* GLORY */
+}
+@media (max-width: 544px) {
+    /* MENU */
+    .mobile_menu {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 40px;
+        z-index: 9;
+    }
+
+    .menu_wrap {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .header__link {
+        color: black;
+        margin-bottom: 11px;
+        line-height: 33px;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+
+    .menu_wrap.menu_active {
+        visibility: visible;
+        opacity: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #fff;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 9;
+        transition: all 0.7s;
+    }
+
+    .menu_wrap.menu_active .header__nav {
+        text-align: center;
+        margin: auto;
+        z-index: 9;
+    }
+
+    .header__nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__btn {
+        background-color: #000000;
+        color: #fff;
+        margin: 0px 20px 13px 11px;
+    }
+
+    .header__nav .header__icon {
+        color: black;
+        margin: 11px 18px 4px 7px;
+    }
+    /* MENU */
+    /* GLORY */
+    .glory__content {
+        width: 257px;
+    }
+    /* GLORY */
+}
+@media (max-width: 420px) {
+    /* HERO */
+    .text__info-subtitle {
+        line-height: 1.6;
+        width: 321px;
+    }
+    /* HERO */
+    /* OVERLAY */
+    .team__content-title {
+        width: 300px;
+    }
+    /* OVERLAY */
+    /* MACHINE */
+    .gap {
+        gap: 15px;
+    }
+
+    .machine_img img {
+        height: 120px;
+    }
+    /* MACHINE */
+    /* GLORY */
+    .glory__content {
+        width: 196px;
+    }
+    /* GLORY */
+}
+@media (max-width: 375px) {
+    /* HERO */
+    .text__info-title {
+        width: 201px;
+    }
+    /* HERO */
+    /* MACHINE */
+    .machine_img img {
+        height: 106px;
+    }
+    /* MACHINE */
+    /* GLORY */
+    .glory__content {
+        width: 170px;
+    }
+    /* GLORY */
+}

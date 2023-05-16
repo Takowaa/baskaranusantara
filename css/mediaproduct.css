@@ -1,0 +1,232 @@
+@media (max-width: 1200px) {
+    /* PRODUCT */
+    .col-3 img {
+        height: 280px;
+    }
+    /* PRODUCT */
+}
+
+@media (max-width: 1024px) {
+    /* BASE CONFIQ */
+    .container {
+        max-width: 990px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .row-2 {
+        flex-wrap: wrap;
+    }
+
+    .col-3 {
+        width: 48%;
+    }
+
+    .gap {
+        gap: 36px;
+    }
+    /* BASE CONFIQ */
+    /* HEADER */
+    .header__link:not(:last-child) {
+        margin-right: 28px;
+    }
+    /* HEADER */
+    /* PRODUCT */
+    .product_subtitle {
+        width: auto;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 21px;
+    }
+    /* PRODUCT */
+}
+@media (max-width: 880px) {
+    /* BASE CONFIQ */
+    .row-2 {
+        justify-content: space-evenly;
+    }
+
+    .col-3 {
+        width: 45%;
+    }
+    /* BASE CONFIQ */
+    /* HEADER */
+    .header__logo {
+        font-size: 14px;
+    }
+    .header__link:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .header__link {
+        font-size: 15px;
+    }
+
+    .header__btn {
+        width: 136.39px;
+        height: 30px;
+        font-size: 13px;
+    }
+    /* HEADER */
+    /* PRODUCT */
+    .product_title {
+        text-align: center;
+    }
+
+    .product_subtitle {
+        margin-top: 5px;
+    }
+    /* PRODUCT */
+}
+@media (max-width: 778px) {
+    /* HEADER */
+    .header__link:not(:last-child) {
+        margin-right: 4px;
+    }
+
+    .header__btn {
+        margin-right: 14px;
+    }
+
+    .header__icon:not(:last-child) {
+        margin-right: 14px;
+    }
+    /* HEADER */
+}
+@media (max-width: 600px) {
+    /* HEADER */
+    .header {
+        padding: 0 20px;
+    }
+
+    .header__icon {
+        font-size: 20px;
+    }
+
+    .header__icon:not(:last-child) {
+        margin-right: 7px;
+    }
+
+    .header__logo {
+        font-size: 11px;
+    }
+
+    .header__link {
+        font-size: 13px;
+    }
+
+    .header__btn {
+        margin-right: 5px;
+        width: 116.39px;
+        height: 26px;
+        font-size: 11px;
+    }
+    /* HEADER */
+    /* PRODUCT */
+    .col-3 img {
+        height: 230px;
+    }
+
+    .product_subtitle {
+        font-size: 17px;
+    }
+
+    .product_title {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    /* PRODUCT */
+    /* FOOTER */
+    .footer_copyright-title {
+        margin-top: 0;
+    }
+    /* FOOTER */
+}
+@media (max-width: 544px) {
+    /* MENU */
+    .mobile_menu {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 40px;
+        z-index: 9;
+    }
+
+    .menu_wrap {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .header__link {
+        color: black;
+        margin-bottom: 11px;
+        line-height: 33px;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+
+    .menu_wrap.menu_active {
+        visibility: visible;
+        opacity: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #fff;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 9;
+        transition: all 0.7s;
+    }
+
+    .menu_wrap.menu_active .header__nav {
+        text-align: center;
+        margin: auto;
+        z-index: 9;
+    }
+
+    .header__nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__btn {
+        background-color: #000000;
+        color: #fff;
+        margin: 0px 20px 13px 11px;
+    }
+
+    .header__nav .header__icon {
+        color: black;
+        margin: 11px 18px 4px 7px;
+    }
+    /* MENU */
+}
+@media (max-width: 420px) {
+    /* PRODUCT */
+    .col-3 img {
+        height: 188px;
+    }
+    /* PRODUCT */
+}
+@media (max-width: 375px) {
+    /* HEADER */
+    .header__logo {
+        font-size: 10px;
+    }
+    /* HEADER */
+    /* PRODUCT */
+    .col-3 img {
+        height: 166px;
+    }
+    
+    .col-3 {
+        width: 44%;
+    }
+    /* PRODUCT */
+}
